@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shot game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>실탄 공포탄 게임</h1>
+        <div class="info">
+            <span id="bulletInfo">실탄: 0, 공포탄: 0</span>
+        </div>
+        <div class="grid-container" id="buttonfield">
+            <button id="shootOpponent" class="game-button">상대에게 쏘기</button>
+            <button id="shootSelf" class="game-button">자신에게 쏘기</button>
+        </div>
+        <div class="controls">
+            <button id="useItem" class="game-button">아이템 사용</button>
+            <button id="resetButton">리셋</button>
+            <span id="clickInfo">현재 턴: P1</span>
+        </div>
+        <div class="item-info">
+            <span id="lifeInfoP1">P1 생명: 0</span><br>
+            <span id="lifeInfoP2">P2 생명: 0</span><br>
+            <span id="itemInfoP1">P1 아이템: 없음</span><br>
+            <span id="itemInfoP2">P2 아이템: 없음</span>
+        </div>
+    </div>
+    <img src="afddafdasfdaf.jpg" alt="">
+    <h1>규칙</h1>
+    <p>1.p1,p2를 정한다</p>
+    <p>2. 생각과 운을 믿으며 어디로 쏠지 정한다</p>
+    <p>3. 상대의 생명을 없에면 승리</p>
+    <p>3-1,만약 자신에게 쏘았다고요? 용기상으로 한번더</p>
+    <h1>아이탬 설명</h1>
+    <p>1.알약. 생명 +1</p>
+    <p>2.돋보기. 이번탄이 무엇인지 알수있다</p>
+    <p>3.맥주. 취해서 이번탄약을 버린다</p>
+    <p>4.조커카드. 총알 다시 리셋</p>
+    <script src="script.js"></script>
+</body>
+
+</html>
